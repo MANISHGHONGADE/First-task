@@ -54,31 +54,25 @@
     font-weight: bold;
     color: black;
     cursor: pointer;
+    transition:0.9s ;
+  
   }
+
   
   .joinBtn:hover {
     background-color: bisque;
   }
-  
+   
 
 .btn:hover {
   background-color: var(--primary-color-dark);      
 }
+  
 
-a::before{  
+
+ a{  
   text-decoration: none;
-  content: '';
-  position: absolute;  
-  top: 0;
-  left: 0%;
-  height: 100%;
-  width: 0;
-  border-bottom:3px solid rgb(7, 7, 56) ;
-  transition: 0.5s linear;
-}
-a :hover ::before{
-  width: 90%;
-}
+ }
 
 
 img {
